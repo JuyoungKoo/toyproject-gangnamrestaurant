@@ -4,6 +4,7 @@ import RestaurantDetail from './pages/RestaurantDetail';
 import RestaurantRegist from './pages/RestaurantRegist';
 import Layout from './layouts/Layout';
 import Main from './pages/Main';
+import Error from './pages/Error';
 import "./App.css";
 
 
@@ -19,6 +20,7 @@ function App() {
             <Route path=":id" element={ <RestaurantDetail/> }/>
           </Route> 
         </Route>
+        <Route path="*" element={ <Error/> }/>
       </Routes>
     </BrowserRouter>
     
