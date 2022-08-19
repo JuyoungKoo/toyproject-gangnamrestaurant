@@ -6,6 +6,7 @@
     justify-items: end;   
     /* 가로축 위치 justify-items  */
 }
+
 .form{
 
     position:relative;
@@ -16,8 +17,14 @@
     /* object-fit: contain; */
 }
 
+
 .formTable>button {
     width: 100px;
     text-align: center;
+    background-color: #E23D3D ; 
+    color: white;
+}
 
+.formTable>button:hover {
+    color:silver;
 }
