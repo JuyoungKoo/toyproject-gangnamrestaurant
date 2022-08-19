@@ -108,6 +108,9 @@ function RestaurantRegistForm() {
                     <option>분식</option>
                 </select>
                 <br/>
+                <label> 가맹점 주소 : </label>
+                <input type="text" name="addressmenu" value={ registRestaurant.address } onChange={ onChangeHandler }/>
+                <br/>
                 <label> 영업 시간 :  </label>
                 <input type="text" name="operationHour" value={ registRestaurant.operationHour } onChange={ onChangeHandler } placeholder="00:00 ~ 00:00"/>
                 <br/>
